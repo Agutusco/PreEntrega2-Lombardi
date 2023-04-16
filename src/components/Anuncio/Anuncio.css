@@ -1,0 +1,16 @@
+.img-footer{
+    width: 5rem;
+    margin: 2rem;
+}
+
+.img-contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+    height: 200px;
+    /* overflow: hidden; */
+    position: static;
+    z-index: 1000;
+}

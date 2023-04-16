@@ -1,0 +1,16 @@
+.subtitulo-principal{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 9px;
+}
+
+.titulo-principal{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 9px;
+    font-size: 40px;
+    font-family: 'sans serif';
+}
+

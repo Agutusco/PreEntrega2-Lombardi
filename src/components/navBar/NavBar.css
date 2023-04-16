@@ -1,0 +1,26 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+h1{
+    color: green;
+}
+
+li{
+    display: inline-block;
+    margin: 1rem;
+    cursor: pointer;
+    margin: 1rem;
+}
+
+li:hover{
+    border-bottom: 1px solid green;
+}
+
+.logo-principal{
+    width: 10rem;
+    margin: -9px;
+}

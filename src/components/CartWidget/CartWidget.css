@@ -1,0 +1,8 @@
+.imgCarrito{
+    width: 4rem;
+    border-bottom: none;
+}
+
+.imgCarrito:hover{
+    border-bottom: 1px white;
+}
