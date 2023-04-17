@@ -8,7 +8,7 @@ return (
         <h2>{nombre}</h2>
         <p>Precio: ${precio}</p>
         <img src={img} alt=""  className='imgProducto'/>
-        <Link to= {`/item/${id}`}>Ver Más</Link>
+        <button className="boton"><Link to= {`/item/${id}`} className="btn-link">Ver Más</Link></button>
     </div>
 )
 }

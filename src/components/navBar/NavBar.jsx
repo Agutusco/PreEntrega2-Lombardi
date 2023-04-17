@@ -12,10 +12,10 @@ const navBar = () => {
             <nav>
                 <ul>
                     <li>
-                        <NavLink to={`/categoria/1`}>Legos</NavLink>
+                        <NavLink className={"navbar-link"} to={`/categoria/1`}>Legos</NavLink>
                     </li>
                     <li>
-                    <NavLink to={`/categoria/2`}>Dinosaurios</NavLink>
+                    <NavLink className={"navbar-link"} to={`/categoria/2`}>Dinosaurios</NavLink>
                     </li>
                     <li>Superhéroes</li>
                     <li>Peluches</li>

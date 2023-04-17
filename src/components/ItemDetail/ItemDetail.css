@@ -2,8 +2,54 @@
     text-align: center;
     border: 1px solid #e3e1e1;
     margin: 3rem;
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-areas: 
+    "uno dos";
 }
 
-img {
-    width: 50vw;
+.img-detalle {
+    width: 22rem;
+    /* display: flex;
+    justify-items: flex-start; */
+    justify-self: center;
+    align-self: center;
+    grid-area: uno;
+}
+
+.titulo-detalle{
+    justify-self: center;
+    height: 15px;
+    grid-area: dos;
+    padding: 15px;
+    font-size: 30px;
+}
+
+.precio-detalle{
+    padding-top: 16px;
+    font-size: 25px;
+}
+
+.desc-detalle{
+    grid-area: dos;
+    font-size: 15px;
+    justify-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.div-detalle{
+    grid-area: dos;
+}
+
+.link-detalle{
+    text-decoration: none;
+    color: black;
+}
+
+.boton-detalle{
+    border-radius: 10px;
 }

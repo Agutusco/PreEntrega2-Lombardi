@@ -18,9 +18,11 @@ const ItemCount = () => {
     }
 return (
     <>
+    <div>
     <button onClick={ decrementar }>-</button>
     <p>{contador}</p>
     <button onClick={ incrementar }>+</button>
+    </div>
     </>
 )
 }

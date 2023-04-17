@@ -8,7 +8,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: red;
+    background-color: rgb(130, 255, 130);
     height: 200px;
     /* overflow: hidden; */
     position: static;

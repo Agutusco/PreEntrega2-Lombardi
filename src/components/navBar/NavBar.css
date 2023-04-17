@@ -24,3 +24,9 @@ li:hover{
     width: 10rem;
     margin: -9px;
 }
+
+
+.navbar-link{
+    text-decoration: none;
+    color: black;
+}

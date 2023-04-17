@@ -19,11 +19,11 @@
 import Item from "../Item/Item"
 import './ItemList.css'
 
-const ItemList = ({productos}) => {
+const ItemList = ({products}) => {
     return (
     <div className="contenedorProductos">
         {
-        productos.map(prod  => {
+        products.map(prod  => {
             return <Item key={prod.id}  {...prod} />
         })
         }

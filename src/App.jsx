@@ -19,14 +19,10 @@ function App() {
 
       </Routes>
     </BrowserRouter>
-
+    <Anuncio/>
     </>
   );
 }
 
 export default App;
-/*
 
-
-{/* <ItemCount/> 
-<Anuncio/>*/

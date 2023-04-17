@@ -2,6 +2,8 @@ import React from 'react'
 import "./Anuncio.css"
 
 const Anuncio = () => {
+    
+
 return (
     <div className='img-contenedor'>
         <img src="../img/legoLogo.png" alt="" className='img-footer' />
