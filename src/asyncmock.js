@@ -4,6 +4,7 @@ const productos = [
     id: "1", 
     img: "../img/legocity.webp", 
     cat:"1", 
+    stock: 10,
     desc:"Lego para simular un robo. Viene con dos personajes y un vehiculo. Esta misma esta basada en la serie de televisión de Lego City Adventure de 2019. Juego para niños de entre 5 a 12 años. Prohibido para niños de entre 0 a 3 años, contiene piezas muy pequeñas."
     },
 
@@ -11,6 +12,7 @@ const productos = [
     precio: 3900, id: "2", 
     img:"../img/legofriends.webp",
     cat:"1", 
+    stock: 10,
     desc:"Lego friends, creado especialmente para atraer a las niñas y que puedan crear sus propias casas. Viene con dos personajes y una pequeña cascada.Juego para niños mayores a 5 años. Prohibido para niños de entre 0 a 3 años, contiene piezas muy pequeñas"
     },
 
@@ -19,6 +21,7 @@ const productos = [
     id:"3", 
     img:"../img/legostarwars.webp",
     cat:"1",
+    stock: 10,
     desc:"Lego Star Wars, basado en las peliculas y sus videojuegos nos trae 4 personajes, una nave y una pequeña base. Forma parte de la colección de Star Wars edición limitada.Juego para niños mayores a 6 años. Prohibido para niños de entre 0 a 3 años, contiene piezas muy pequeñas."
     },
 
@@ -27,6 +30,7 @@ const productos = [
     id:"4", 
     img:"../img/legosuperheroes.webp",
     cat:"1",
+    stock: 10,
     desc: "Lego Marvel super heroes edición Black Panther. Nos trae 3 personajes incluyendo un rinoceronte y una pequeña base. Forma parte de la colección de superheroes de Marvel. Juego para niños de entre 6 a 12 años. Prohibido para niños de entre 0 a 3 años, contiene piezas muy pequeñas"
     },
 
@@ -35,6 +39,7 @@ const productos = [
     id:"5", 
     img:"../img/dino1.webp",
     cat:"2",
+    stock: 10,
     desc:"Dinosaurio funcional con batería. Estas ya vienen incluidas. Hace ruido, camina y mueve tanto la cabeza como la cola. Jueguete para niños mayores a los 3 años de edad"
 },
 
@@ -43,6 +48,7 @@ const productos = [
     id: "6", 
     img:"../img/dino2.webp",
     cat:"2",
+    stock: 10,
     desc:"Incluye tres dinosaurios de distintas especies. Los tres incluyen movimientos, ya provienen con batería. Jueguete para niños mayores a los 3 años de edad."
 },
 
@@ -51,16 +57,19 @@ const productos = [
     id: "7", 
     img:"../img/dino3.webp",
     cat:"2",
+    stock: 10,
     desc: "Increible dinosaurio. En la misma caja incluye dos bases, dos personajes, un arma y un helicoptero para atrapar al animal extinto. Jueguete para niños mayores a los 3 años de edad."
 },
 
-    {nombre: "Dinosaurio hervíboro", 
+    {nombre: "Diplodocus", 
     precio: 1500, 
     id: "8", 
     img:"../img/dino4.webp"
     ,cat:"2",
+    stock: 10,
     desc:" Dinosaurio hervíboro con movimientos. Las baterías ya vienen incluidas en él. Juegute para niños mayores a los 3 años de edad."
 },
+
 
 ]
 

@@ -14,3 +14,14 @@
     position: static;
     z-index: 1000;
 }
+
+.prueba{
+    display: flex;
+    align-items: center;
+}
+
+.publicidades{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
