@@ -8,7 +8,7 @@ import { useContext } from "react"
 import { useState } from "react"
 
 
-const ItemDetail = ({id, nombre, precio, img,desc, stock}) => {
+const ItemDetail = ({id, nombre, precio, img2 ,desc, stock}) => {
     
     const [agregarCantidad, setAgregarCantidad] = useState(0)
 
@@ -36,13 +36,13 @@ return (
         <div>
             {
 
-        agregarCantidad > 0 ? (<Link Link to = "/cart">Terminar compra</Link>) : (<ItemCount inicial = {1} stock= {stock} funcionAgregar = {quantity}/>)
+        agregarCantidad > 0 ? (<button className="button-terminar-compra"><Link Link to = "/cart" className="link-terminar-compra">Terminar compra</Link></button>) : (<ItemCount inicial = {1} stock= {stock} funcionAgregar = {quantity}/>)
             }
         </div>
         
         <button className="boton-detalle"><Link to={"/"} className="link-detalle">Volver</Link></button>
             </div>
-        <img src={img} alt={nombre} className="img-detalle uno"/>
+        <img src={img2} alt={nombre} className="img-detalle uno"/>
         </div>
     </div>
 )

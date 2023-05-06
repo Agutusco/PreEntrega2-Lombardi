@@ -6,6 +6,9 @@ import './App.css';
 import ItemCount from './components/ItemCount/ItemCount';
 import Anuncio from './components/Anuncio/Anuncio';
 import { ProveedorContexto } from './contexto/CarritoContexto';
+import Cart from './components/Cart/Cart';
+
+
 
 function App() {
   return (
@@ -19,6 +22,7 @@ function App() {
         <Route path='/' element={<ItemListContainer greeting = "Venta Online"/>}/>
         <Route path='/categoria/:idCategoria' element= {<ItemListContainer/>}/>
         <Route path='/item/:idItem' element={<ItemDetailContainer/>}/>
+        <Route path='/cart' element = {<Cart/>} />
         <Route path='*' element={<h2>Terminar despues</h2>}></Route>
       </Routes>
     <Anuncio/>

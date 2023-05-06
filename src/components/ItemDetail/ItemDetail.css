@@ -53,3 +53,13 @@
 .boton-detalle{
     border-radius: 10px;
 }
+
+.link-terminar-compra{
+    color: black;
+    text-decoration: none;
+}
+
+.button-terminar-compra{
+    border-radius: 10px;
+    margin-bottom: 10px;
+}

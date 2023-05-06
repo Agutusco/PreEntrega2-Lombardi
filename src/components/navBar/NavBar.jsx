@@ -15,10 +15,14 @@ const navBar = () => {
                         <NavLink className={"navbar-link"} to={`/categoria/1`}>Legos</NavLink>
                     </li>
                     <li>
-                    <NavLink className={"navbar-link"} to={`/categoria/2`}>Dinosaurios</NavLink>
+                        <NavLink className={"navbar-link"} to={`/categoria/2`}>Dinosaurios</NavLink>
                     </li>
-                    <li>Superhéroes</li>
-                    <li>Peluches</li>
+                    <li>
+                        <NavLink className={"navbar-link"} to={`/categoria/3`}>Superhéroes</NavLink>
+                    </li>
+                    <li>
+                        <NavLink className={"navbar-link"} to={`/categoria/4`}>Peluches</NavLink>
+                    </li>
                 </ul>
             </nav>
                 <CartWidget/>

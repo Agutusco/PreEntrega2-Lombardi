@@ -1,11 +1,11 @@
-import { UseState, createContext } from "react";
+import { useState, createContext } from "react";
 import Item from "../components/Item/Item";
 
 export const carritoContexto = createContext({carrito: []})
 
 
 export const ProveedorContexto = ({children}) =>{
-    const [carrito, setCarrito] = UseState([])
+    const [carrito, setCarrito] = useState([])
     console.log(carrito);
 
     const agregarProducto = (Item, cantidad) => {

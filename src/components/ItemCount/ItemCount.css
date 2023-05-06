@@ -1,0 +1,12 @@
+.contador{
+    padding: 15px;
+}
+
+.contador button{
+    border-radius: 10px;
+}
+
+.boton-agregar{
+    margin: 15px;
+    border-radius: 10px;
+}
