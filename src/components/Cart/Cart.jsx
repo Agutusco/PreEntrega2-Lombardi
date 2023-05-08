@@ -5,12 +5,12 @@ import CartItem from "../CartItem/CartItem"
 import "./Cart.css"
 
 
-const Cart = () => {
+const Cart = (img2) => {
     const {carrito, vaciarCarrito} = useContext(carritoContexto)
 
     const calcularTotalEnCarrito = carrito.reduce((total, producto) => total + producto.cantidad, 0)
 
-    const total = carrito.reduce((total, producto) => total + (producto.Item.precio * producto.cantidad ),0) 
+    const total = carrito.reduce((total, producto) => total + (producto.Item.Precio * producto.cantidad ),0) 
 
     if (calcularTotalEnCarrito === 0) {
         return (
@@ -30,6 +30,7 @@ const Cart = () => {
                 carrito.map(producto => <CartItem key={producto.id} {...producto} />)}
                 <div>
                     <div className="compra-final">
+                    <img src={img2} alt="" />
                 <h3>Total: ${total}</h3>
                 <button onClick={() => vaciarCarrito()} className="button-vaciar">Vaciar carrito</button>
                 <button className="button-finalizar"><Link to= "/checkout" className="link-final"> Finalizar compra</Link></button>
