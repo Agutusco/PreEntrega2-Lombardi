@@ -12,16 +12,16 @@ const navBar = () => {
             <nav>
                 <ul>
                     <li>
-                        <NavLink className={"navbar-link"} to={`/categoria/1`}>Legos</NavLink>
+                        <NavLink className={"navbar-link"} to={`cat/1`}>Legos</NavLink>
                     </li>
                     <li>
-                        <NavLink className={"navbar-link"} to={`/categoria/2`}>Dinosaurios</NavLink>
+                        <NavLink className={"navbar-link"} to={`/cat/2`}>Dinosaurios</NavLink>
                     </li>
                     <li>
-                        <NavLink className={"navbar-link"} to={`/categoria/3`}>Superhéroes</NavLink>
+                        <NavLink className={"navbar-link"} to={`/cat/3`}>Superhéroes</NavLink>
                     </li>
                     <li>
-                        <NavLink className={"navbar-link"} to={`/categoria/4`}>Peluches</NavLink>
+                        <NavLink className={"navbar-link"} to={`/cat/4`}>Peluches</NavLink>
                     </li>
                 </ul>
             </nav>

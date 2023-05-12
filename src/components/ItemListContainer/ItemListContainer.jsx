@@ -4,27 +4,13 @@ import {getProducts, getProductosPorCategoria} from "../../asyncmock"
 import ItemList from '../ItemList/ItemList'
 import { useParams } from 'react-router-dom'
 import "./ItemListContainer.css"
-import {collection, getDocs, where, query, doc, updateDoc, onSnapshot} from "firebase/firestore"
 import { db } from '../../services/firebase/config'
-
+import { collection, doc, query, updateDoc, onSnapshot, where, getDocs } from "firebase/firestore";
 const ItemListContainer = ({ greeting }) => {
 
-    // const handlerComprar = (id, Stock,) =>{
-    //     if (Stock > 0) {
-    //         const productoRef = doc(db, "productos", id)
-    //         updateDoc(productoRef, {
-    //             Stock: Stock - 1
-    //         })
-    //         .then(() =>{
-    //             console.log("Producto eliminado")
-    //         })
-    //         .catch((error) =>{
-    //             console.log(error)
-    //         })
-    //     }
-    // }
 
     const [productos, setProductos] = useState([]);
+
 
     const {cat} = useParams();
 
@@ -40,7 +26,7 @@ const ItemListContainer = ({ greeting }) => {
             setProductos(productosFirebase)
         })
             .catch(error => console.log(error))
-    },[])
+    },[cat])
 
 
     return (
@@ -52,7 +38,7 @@ const ItemListContainer = ({ greeting }) => {
 }
 export default ItemListContainer
 
-// idCategoria
+
 
 
 

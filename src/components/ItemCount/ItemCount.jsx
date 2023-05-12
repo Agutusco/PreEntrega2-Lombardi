@@ -1,6 +1,8 @@
 import React from 'react'
 import { useState } from 'react'
 import "./ItemCount.css"
+import { db } from '../../services/firebase/config'
+import { collection, doc, query, updateDoc, onSnapshot, where, getDocs } from "firebase/firestore";
 
 const ItemCount = ({inicial, stock, funcionAgregar}) => {
     
@@ -18,6 +20,9 @@ const ItemCount = ({inicial, stock, funcionAgregar}) => {
             
         }
     }
+
+
+    
 return (
     <>
     <div className='contador'>
