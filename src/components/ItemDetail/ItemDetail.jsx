@@ -43,7 +43,7 @@ return (
         <div>
             {
                 
-                agregarCantidad > 0 ? (<button className="button-terminar-compra"><Link Link to = "/cart" className="link-terminar-compra">Terminar compra</Link></button>) : (<ItemCount inicial = {1} stock= {Stock} funcionAgregar = {quantity}/>)
+                agregarCantidad > 0 ? (<button className="button-terminar-compra"><Link to = "/cart" className="link-terminar-compra">Terminar compra</Link></button>) : (<ItemCount inicial = {1} stock= {Stock} funcionAgregar = {quantity}/>)
             }
 
 

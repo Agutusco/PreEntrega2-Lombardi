@@ -12,7 +12,7 @@ export const ProveedorContexto = ({children}) =>{
         if (!agregadoAlCarrito(Item.id)) {
             setCarrito(prev => [...prev, {Item,cantidad}])
         }else{
-            console.log("producto ya agregado perri")
+            console.log("producto ya agregado")
         }
     }
 

@@ -1,0 +1,50 @@
+.titulo-checkout{
+    display: flex;
+    justify-content: center;
+    font-family: 'sans serif';
+    font-size: 40px;
+}
+
+.formulario-checkout{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+form{
+    margin: 100px;
+}
+
+.seccion-form{
+    padding: 5px;
+}
+
+.seccion-form label{
+    padding-right: 4px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.datos{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.error{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: red;
+}
+
+.button-form{
+    display: flex;
+    margin-top: 8px;
+    border-radius: 10px;
+}
+
+.id{
+    font-size: 20px;
+
+}

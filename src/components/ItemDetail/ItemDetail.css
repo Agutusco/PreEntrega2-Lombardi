@@ -11,8 +11,6 @@
 
 .img-detalle {
     width: 22rem;
-    /* display: flex;
-    justify-items: flex-start; */
     justify-self: center;
     align-self: center;
     grid-area: uno;
